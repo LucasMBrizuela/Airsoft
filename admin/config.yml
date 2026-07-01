@@ -6,13 +6,43 @@ media_folder: "assets/img"
 public_folder: "/assets/img"
 
 collections:
-  - name: "productos"
-    label: "Productos"
-    folder: "productos"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Nombre", name: "titulo", widget: "string"}
-      - {label: "Precio", name: "precio", widget: "number"}
-      - {label: "Imagen", name: "imagen", widget: "image"}
-      - {label: "Descripcion", name: "descripcion", widget: "markdown"}
+  - name: "catalogo"
+    label: "Catálogo"
+    files:
+      - name: "productos"
+        label: "Productos de la tienda"
+        file: "productos.json"
+        description: "Editá precios, fotos, categorías y fichas técnicas de los productos publicados."
+        fields:
+          - label: "Productos"
+            name: "productos"
+            label_singular: "Producto"
+            widget: "list"
+            summary: "{{fields.nombre}} — {{fields.precio}}"
+            fields:
+              - { label: "ID (sin espacios, único)", name: "id", widget: "string", hint: "Ej: mk18, f17. No repetir ni usar espacios." }
+              - label: "Categoría"
+                name: "categoria"
+                widget: "select"
+                options:
+                  - { label: "Marcadoras", value: "marcadoras" }
+                  - { label: "Indumentaria", value: "indumentaria" }
+                  - { label: "BBs", value: "bbs" }
+                  - { label: "Accesorios", value: "accesorios" }
+              - { label: "Nombre", name: "nombre", widget: "string" }
+              - { label: "Marca", name: "marca", widget: "string" }
+              - { label: "Precio (texto visible, ej: $1.700.000)", name: "precio", widget: "string" }
+              - { label: "Precio (solo número, para el carrito)", name: "precioNumerico", widget: "number", value_type: "int", hint: "Sin puntos ni símbolos. Ej: 1700000" }
+              - label: "Imágenes"
+                name: "imagenes"
+                widget: "list"
+                label_singular: "Imagen"
+                field: { label: "Imagen", name: "imagen", widget: "image" }
+              - label: "Ficha técnica"
+                name: "fichaTecnica"
+                widget: "list"
+                label_singular: "Característica"
+                summary: "{{fields.etiqueta}}: {{fields.valor}}"
+                fields:
+                  - { label: "Etiqueta", name: "etiqueta", widget: "string" }
+                  - { label: "Valor", name: "valor", widget: "string" }

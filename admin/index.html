@@ -10,9 +10,6 @@
   <body>
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
     <script>
-      // Registro de librería de medios
-      CMS.registerMediaLibrary(window.netlifyMediaLibrary);
-
       // Script para controlar el estado del usuario y redirecciones
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {

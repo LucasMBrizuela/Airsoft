@@ -1,0 +1,90 @@
+{
+  "productos": [
+    {
+      "id": "mk18",
+      "categoria": "marcadoras",
+      "nombre": "Tokyo Marui MWS MK18",
+      "marca": "Tokyo Marui",
+      "precio": "$1.700.000",
+      "precioNumerico": 1700000,
+      "imagenes": ["mk18_1.jpg", "mk18_2.jpg", "mk18_3.jpg"],
+      "fichaTecnica": [
+        { "etiqueta": "Tipo", "valor": "Réplica GBBR (Gas Blowback Rifle)" },
+        { "etiqueta": "Modelo", "valor": "MK18 MOD1" },
+        { "etiqueta": "FPS", "valor": "280–320 FPS (con gas verde, 0.20g)" },
+        { "etiqueta": "Peso", "valor": "Aprox. 3.2 kg (con cargador vacío)" },
+        { "etiqueta": "Longitud", "valor": "820 mm (con culata extendida)" },
+        { "etiqueta": "Cañón", "valor": "275 mm, acero inoxidable" },
+        { "etiqueta": "Materiales", "valor": "Receiver de aluminio CNC, culata y guardamanos polímero reforzado" },
+        { "etiqueta": "Sistema", "valor": "MWS (Modular Weapon System)" },
+        { "etiqueta": "Hop-Up", "valor": "Ajustable" },
+        { "etiqueta": "Contenido de la caja", "valor": "Réplica, cargador de 30 BBs, manual, herramienta Hop-Up" }
+      ]
+    },
+    {
+      "id": "f17",
+      "categoria": "marcadoras",
+      "nombre": "F17 WE",
+      "marca": "WE Tech",
+      "precio": "$330.000",
+      "precioNumerico": 330000,
+      "imagenes": ["f17_1.jpg", "f17_2.jpg"],
+      "fichaTecnica": [
+        { "etiqueta": "Tipo", "valor": "Réplica GBB (Gas Blowback Pistol)" },
+        { "etiqueta": "Modelo", "valor": "F17 / Glock 17" },
+        { "etiqueta": "FPS", "valor": "300–340 FPS (con gas verde, 0.20g)" },
+        { "etiqueta": "Peso", "valor": "Aprox. 740 g (con cargador vacío)" },
+        { "etiqueta": "Longitud", "valor": "202 mm" },
+        { "etiqueta": "Cañón", "valor": "114 mm" },
+        { "etiqueta": "Materiales", "valor": "Slide de metal, frame de polímero reforzado" },
+        { "etiqueta": "Hop-Up", "valor": "Ajustable" },
+        { "etiqueta": "Contenido de la caja", "valor": "Réplica, cargador de 25 BBs, manual de usuario" }
+      ]
+    },
+    {
+      "id": "emerson",
+      "categoria": "indumentaria",
+      "nombre": "Emerson Gear",
+      "marca": "Emerson Gear",
+      "precio": "$95.000",
+      "precioNumerico": 95000,
+      "imagenes": ["emer_1.jpg"],
+      "fichaTecnica": [
+        { "etiqueta": "Tipo", "valor": "Chaleco táctico / plate carrier" },
+        { "etiqueta": "Material", "valor": "Nylon 500D / Cordura reforzado" },
+        { "etiqueta": "Talle", "valor": "Ajustable (M-XL)" },
+        { "etiqueta": "Características", "valor": "Sistema MOLLE, ajuste lateral y en hombros" }
+      ]
+    },
+    {
+      "id": "t2",
+      "categoria": "accesorios",
+      "nombre": "Mira T2",
+      "marca": "AIM/O",
+      "precio": "$65.000",
+      "precioNumerico": 65000,
+      "imagenes": ["t2_1.jpg"],
+      "fichaTecnica": [
+        { "etiqueta": "Tipo", "valor": "Red dot estilo T2" },
+        { "etiqueta": "Magnificación", "valor": "1x" },
+        { "etiqueta": "Montaje", "valor": "Riel Picatinny / Weaver" },
+        { "etiqueta": "Material", "valor": "Cuerpo de aluminio" }
+      ]
+    },
+    {
+      "id": "bls",
+      "categoria": "bbs",
+      "nombre": "BLS",
+      "marca": "BLS",
+      "precio": "$22.000",
+      "precioNumerico": 22000,
+      "imagenes": ["bls028_1.jpg"],
+      "fichaTecnica": [
+        { "etiqueta": "Marca", "valor": "BLS (Ballistic Labs)" },
+        { "etiqueta": "Peso", "valor": "0.28g (consultar lote)" },
+        { "etiqueta": "Material", "valor": "PLA biodegradable / BBs premium" },
+        { "etiqueta": "Diámetro", "valor": "5.95 mm ± 0.01 mm" }
+      ]
+    }
+  ]
+}
