@@ -1,0 +1,13 @@
+backend:
+  name: git-gateway # Esto conecta tu web con GitHub para guardar los cambios
+
+collections:
+  - name: "productos"
+    label: "Productos"
+    folder: "productos" # Aquí guardaremos los datos de cada producto
+    create: true
+    fields:
+      - {label: "Nombre", name: "titulo", widget: "string"}
+      - {label: "Precio", name: "precio", widget: "number"}
+      - {label: "Imagen", name: "imagen", widget: "image"}
+      - {label: "Descripcion", name: "descripcion", widget: "markdown"}
