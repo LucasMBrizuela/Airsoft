@@ -5,10 +5,6 @@ backend:
 media_folder: "assets/img"
 public_folder: "/assets/img"
 
-# AGREGÁ ESTAS LÍNEAS ABAJO PARA SOLUCIONAR EL ERROR:
-media_library:
-  name: upload
-
 collections:
   - name: "productos"
     label: "Productos"
