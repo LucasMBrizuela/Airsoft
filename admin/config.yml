@@ -1,11 +1,20 @@
 backend:
-  name: git-gateway # Esto conecta tu web con GitHub para guardar los cambios
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/img"
+public_folder: "/assets/img"
+
+# AGREGÁ ESTAS LÍNEAS ABAJO PARA SOLUCIONAR EL ERROR:
+media_library:
+  name: upload
 
 collections:
   - name: "productos"
     label: "Productos"
-    folder: "productos" # Aquí guardaremos los datos de cada producto
+    folder: "productos"
     create: true
+    slug: "{{slug}}"
     fields:
       - {label: "Nombre", name: "titulo", widget: "string"}
       - {label: "Precio", name: "precio", widget: "number"}
