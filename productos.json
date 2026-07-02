@@ -334,6 +334,40 @@
           "valor": "30 - 130R"
         }
       ]
+    },
+    {
+      "id": "hicapa",
+      "categoria": "marcadoras",
+      "nombre": "GBB HI-CAPA 5\" VANGUARD BLOWBACK AIRSOFT PISTOL BLACK & TAN",
+      "marca": "ARCTURUS",
+      "precio": "$440.000",
+      "precioNumerico": 44000,
+      "imagenes": [
+        "/assets/img/2011_1.jpg",
+        "/assets/img/2011_2.jpg"
+      ],
+      "fichaTecnica": [
+        {
+          "etiqueta": "Dimensiones",
+          "valor": "240 mm x 145 mm"
+        },
+        {
+          "etiqueta": "Longitud del cañón interior",
+          "valor": "113 mm"
+        },
+        {
+          "etiqueta": "Peso",
+          "valor": "650 gramos"
+        },
+        {
+          "etiqueta": "Capacidad del cargador",
+          "valor": "31R"
+        },
+        {
+          "etiqueta": "Hop-Up",
+          "valor": "Sí, ajustable"
+        }
+      ]
     }
   ]
 }
