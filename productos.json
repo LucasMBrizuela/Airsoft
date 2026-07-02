@@ -286,6 +286,24 @@
           "valor": "Este envase de 4000 unidades es ideal para cualquier réplica de airsoft si buscas un rendimiento constante y precisión, sin atascos."
         }
       ]
+    },
+    {
+      "id": "Tracer",
+      "categoria": "accesorios",
+      "nombre": "TRACER BLASTER C UNIT BLACK",
+      "marca": "ACETECH ",
+      "precio": "$146.500",
+      "precioNumerico": 146500,
+      "imagenes": [
+        "/assets/img/tracer_2.jpg",
+        "/assets/img/tracer_1.jpg"
+      ],
+      "fichaTecnica": [
+        {
+          "etiqueta": "La característica principal del ACETECH Blaster C es el efecto de llama en la boca del cañón que aparece con cada disparo; permite alternar fácilmente entre los modos —Llama, Trazador y Llama+Trazador— mediante un único botón. El efecto de llama depende del volumen de gas o de la nebulización de agua alrededor de la boca del cañón: cuanto mayor sea el volumen, mejor será el efecto. El Blaster C presenta un diseño moderno y estilizado, con una estética única en la boca del cañón que confiere a tu réplica de airsoft un aspecto robusto y agresivo. Además, se trata de una unidad trazadora de alto rendimiento y resistente al agua (clasificación IP65), con un tamaño ideal para jugadores móviles en cualquier condición meteorológica.",
+          "valor": "Diseño táctico de aleación de aluminio. El Blaster C cuenta con certificación IP65. Simula el efecto de fogonazo en la boca del cañón. Compatible con bolas estándar, bolas trazadoras verdes y bolas de gel. Incluye adaptador de M14(-) a M11(+)."
+        }
+      ]
     }
   ]
 }
