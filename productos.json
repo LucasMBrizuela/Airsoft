@@ -225,6 +225,25 @@
           "valor": "Peso: 56 gramos"
         }
       ]
+    },
+    {
+      "id": "M600C",
+      "categoria": "accesorios",
+      "nombre": "Light scout M600C ",
+      "marca": "WADSN",
+      "precio": "$126.000",
+      "precioNumerico": 126000,
+      "imagenes": [
+        "/assets/img/m600_1.jpg",
+        "/assets/img/m600_2.jpg",
+        "/assets/img/m600_3.jpg"
+      ],
+      "fichaTecnica": [
+        {
+          "etiqueta": "Peso: 220 g Longitud de onda: Hasta 850 nm Funciones: Interruptor trasero (encendido continuo), interruptor remoto de presión (encendido momentáneo) Batería: 2 baterías recargables 16340 (no incluidas)",
+          "valor": "Autonomía práctica: 110 minutos Montura para riel Picatinny: Permite fijar la linterna de forma segura a rieles Picatinny estándar de 20 mm."
+        }
+      ]
     }
   ]
 }
