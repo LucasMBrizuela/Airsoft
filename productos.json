@@ -208,6 +208,23 @@
           "valor": "Fabricados con policarbonato Selenite™ a prueba de impactos"
         }
       ]
+    },
+    {
+      "id": "Speed Loader Tico",
+      "categoria": "bbs",
+      "nombre": "Speed Loader Tico 100R",
+      "marca": "Cyma",
+      "precio": "$10.500",
+      "precioNumerico": 10499,
+      "imagenes": [
+        "/assets/img/tico_1.jpg"
+      ],
+      "fichaTecnica": [
+        {
+          "etiqueta": "Modelo: CY-C19A",
+          "valor": "Peso: 56 gramos"
+        }
+      ]
     }
   ]
 }
