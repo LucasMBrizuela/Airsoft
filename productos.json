@@ -269,6 +269,23 @@
           "valor": "16cm"
         }
       ]
+    },
+    {
+      "id": "KRYTAC BBS 0.25G",
+      "categoria": "bbs",
+      "nombre": "KRYTAC BBS 0.25G / 4000R POTE",
+      "marca": "KRYTAC ",
+      "precio": "$45.000",
+      "precioNumerico": 45000,
+      "imagenes": [
+        "/assets/img/bbskraytac_1.jpg"
+      ],
+      "fichaTecnica": [
+        {
+          "etiqueta": "Las bolas de alta calidad son un requisito indispensable para cualquier fusil de airsoft de alto rendimiento, y la línea de bolas Krytac no es una excepción.",
+          "valor": "Este envase de 4000 unidades es ideal para cualquier réplica de airsoft si buscas un rendimiento constante y precisión, sin atascos."
+        }
+      ]
     }
   ]
 }
