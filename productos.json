@@ -304,6 +304,36 @@
           "valor": "Diseño táctico de aleación de aluminio. El Blaster C cuenta con certificación IP65. Simula el efecto de fogonazo en la boca del cañón. Compatible con bolas estándar, bolas trazadoras verdes y bolas de gel. Incluye adaptador de M14(-) a M11(+)."
         }
       ]
+    },
+    {
+      "id": "acrturus",
+      "categoria": "marcadoras",
+      "nombre": "ARCTURUS AEG ADVANCER MOD1 LITE 10\" WITH ETU",
+      "marca": "ARCTURUS ",
+      "precio": "$395.500",
+      "precioNumerico": 395500,
+      "imagenes": [
+        "/assets/img/arcturus_1.jpg",
+        "/assets/img/arcturus_2.jpg"
+      ],
+      "fichaTecnica": [
+        {
+          "etiqueta": "Longitud",
+          "valor": "713 mm - 796 mm - Ajustable"
+        },
+        {
+          "etiqueta": "Peso",
+          "valor": "2000 gramos"
+        },
+        {
+          "etiqueta": "Longitud del cañón interior",
+          "valor": "280 mm"
+        },
+        {
+          "etiqueta": "Capacidad del cargador",
+          "valor": "30 - 130R"
+        }
+      ]
     }
   ]
 }
