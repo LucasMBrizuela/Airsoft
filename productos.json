@@ -244,6 +244,31 @@
           "valor": "Autonomía práctica: 110 minutos Montura para riel Picatinny: Permite fijar la linterna de forma segura a rieles Picatinny estándar de 20 mm."
         }
       ]
+    },
+    {
+      "id": "Dummy Kraken ",
+      "categoria": "accesorios",
+      "nombre": "Dummy ",
+      "marca": "Kraken Dummy",
+      "precio": "$45.000",
+      "precioNumerico": 45000,
+      "imagenes": [
+        "/assets/img/kraken_2.jpg"
+      ],
+      "fichaTecnica": [
+        {
+          "etiqueta": "Material",
+          "valor": "Caucho"
+        },
+        {
+          "etiqueta": "Color",
+          "valor": "Negro"
+        },
+        {
+          "etiqueta": "Tamaño",
+          "valor": "16cm"
+        }
+      ]
     }
   ]
 }
