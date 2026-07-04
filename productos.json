@@ -368,6 +368,41 @@
           "valor": "Sí, ajustable"
         }
       ]
+    },
+    {
+      "id": "Ross",
+      "categoria": "marcadoras",
+      "nombre": "ROSSI SENTINEL AR15 8” M-LOK",
+      "marca": "ROSSI",
+      "precio": "$360.000",
+      "precioNumerico": 359999,
+      "imagenes": [
+        "/assets/img/rossi_1.jpg",
+        "/assets/img/rossi_2.jpg",
+        "/assets/img/rossi_3.jpg"
+      ],
+      "fichaTecnica": [
+        {
+          "etiqueta": "FPS:",
+          "valor": "380"
+        },
+        {
+          "etiqueta": "Peso:",
+          "valor": "2,0 kg (aprox.)"
+        },
+        {
+          "etiqueta": "Materiales:",
+          "valor": "Metal y polímero (fibra de nylon)"
+        },
+        {
+          "etiqueta": "Cargador:",
+          "valor": "Mid-cap"
+        },
+        {
+          "etiqueta": "Conector:",
+          "valor": "T Dean "
+        }
+      ]
     }
   ]
 }
